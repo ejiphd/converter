@@ -1,0 +1,117 @@
+#bg-img{
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+/* select and input div */
+.main{
+    display: none;
+}
+
+/* header */
+#title{
+    background-color:rgba(199, 190, 183, 0.281);
+    position: relative;
+    height: 60px;
+}
+#intro{
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+}
+.intro{
+    display:none;
+}
+/* main division */
+.mainContainer{
+    position:absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    padding-top: 20px;
+}
+
+/* mass */
+.mass:target .mass{
+    width: 100%;
+    height: auto;
+}
+.mass:target .main{
+    display: block;
+}
+/* length */
+.length:target .length{
+    width: 100%;
+    height: auto;
+}
+.length:target .main{
+    display: block;
+}
+/* frequency */
+.frequency:target .frequency{
+    width: 100%;
+    height: auto;
+}
+.frequency:target .main{
+    display: block;
+}
+/* buttons */
+a{
+    width: 20%;
+    height:35px;
+}
+/* input */
+label{
+    margin-top: 40px;
+}
+.inp{
+    padding-top:7px;
+    width:300px;
+    height:35px;
+    font-size:14px;
+    text-align:center;
+    font-weight: bold;
+    left: 15%;
+    right: 15%;
+}
+/* select tag */
+select{
+    margin-top: 0%;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 300px;
+    height: 35px;
+    outline:none;
+    font-size:15px;
+    text-align:center;
+    border:none;
+    border-radius: 10px;
+    background: rgba(148, 91, 42, 0.562);
+}
+/* inner division */
+.innerCont{
+    background-color:rgba(199, 190, 183, 0.281);
+    height: 220px;
+    border-radius: 10px;
+}
+
+/* buttons styling */
+.buttons{
+    margin-left: 20px;
+}
+.buttons:hover{
+    background-color: rgba(199, 190, 183, 0.281);
+    transform: scale(1.1);
+    color:rgb(148, 91, 42);
+}
+.clicked{
+    color: rgb(148, 91, 42);
+    transform: scale(1.1);
+    background-color: rgba(199, 190, 183, 0.281);
+}
+
+.author{
+    font-style: italic;
+    padding-top: 30px;
+    padding-left:30px;
+}
